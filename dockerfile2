@@ -1,0 +1,5 @@
+FROM openjdk:18
+COPY Exchange-rate-service /app/
+WORKDIR /app/
+EXPOSE 8003
+CMD ["java", "-jar", "myapp.jar"]
