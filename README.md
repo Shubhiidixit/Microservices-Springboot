@@ -44,9 +44,7 @@ Here are some key reasons why we have chosen Docker:
 **Continuous Integration/Continuous Deployment (CI/CD):** Docker containers can be easily integrated into CI/CD pipelines for automated testing, building, and deployment, improving the software development lifecycle
 <br>
 **Integration:** Docker integrates well with popular orchestration tools like Kubernetes, Docker Swarm, and Amazon ECS. This enables automated scaling, load balancing, and management of containers in clusters.
-
-<b> System Design : </b>
-![image](https://github.com/Shubhiidixit/Microservices-Springboot/assets/123651074/65342d47-47af-4d11-9f3b-df0b794521dd)
+ 
  <b> URLS : </b>
 
 **Login Page:** http://localhost:8021/
@@ -58,6 +56,10 @@ Here are some key reasons why we have chosen Docker:
 **Currency Exchange Service:** http://localhost:8003/h2-console to access H2 Database
 
 **Currency Conversion Service:** http://localhost:8005/currency-conversion/from/USD/to/INR/20
+<hr>
+
+<b> System Design : </b>
+![image](https://github.com/Shubhiidixit/Microservices-Springboot/assets/123651074/65342d47-47af-4d11-9f3b-df0b794521dd)
 
 
 
