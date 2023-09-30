@@ -14,7 +14,7 @@ The Currency Conversion System is a technological solution aimed at simplifying 
 <b> Technology Stack : </b>
 * Language- Java(Springboot) for backend and HTML, CSS for frontend
 * Database- H2(in-memory), MySQL
-
+<hr>
 <b> Concept of Application : </b>
 
 The application is divided into different microservices, each serving a specific purpose and functionality:
@@ -24,7 +24,7 @@ The application is divided into different microservices, each serving a specific
 **Exchange Rate Service:** This Service is responsible for retrieving and providing up-to-date exchange rate information. It is connected to database to fetch the latest exchange rates for various currencies, ensuring accuracy in currency
 <br>
 **Exchange Calculator Service:** This Service is at the core of the system. It takes user input, including the from currency, to currency, and the amount to be converted. This service utilizes the exchange rate data from the Exchange Rate Service to perform the currency calculation accurately.
-
+<hr>
 <b> Dockerization : </b>
 
 Docker provides a platform and tooling to manage the lifecycle of containers. It is an open source, robust and the most popular container platform which provides the ability to run application in an isolated environment called containers.
@@ -44,7 +44,7 @@ Here are some key reasons why we have chosen Docker:
 **Continuous Integration/Continuous Deployment (CI/CD):** Docker containers can be easily integrated into CI/CD pipelines for automated testing, building, and deployment, improving the software development lifecycle
 <br>
 **Integration:** Docker integrates well with popular orchestration tools like Kubernetes, Docker Swarm, and Amazon ECS. This enables automated scaling, load balancing, and management of containers in clusters.
- 
+ <hr>
  <b> URLS : </b>
 
 **Login Page:** http://localhost:8021/
