@@ -18,11 +18,12 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
+      # Build and push for Dockerfile1
       - name: Extract metadata for Dockerfile1
         id: meta1
         uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
         with:
-          images: shubhid/cicd
+          images: shubhid/cicd1
 
       - name: Build and push Docker image from Dockerfile1
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
@@ -32,24 +33,35 @@ jobs:
           file: ./dockerfile1
           tags: ${{ steps.meta1.outputs.tags }}
           labels: ${{ steps.meta1.outputs.labels }}
-       - name: Build and push Docker image from Dockerfile1
+
+      # Build and push for Dockerfile2
+      - name: Extract metadata for Dockerfile2
+        id: meta2
+        uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+        with:
+          images: shubhid/cicd2
+
+      - name: Build and push Docker image from Dockerfile2
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
         with:
           context: .
           push: true
           file: ./dockerfile2
-          tags: ${{ steps.meta1.outputs.tags }}
-          labels: ${{ steps.meta1.outputs.labels }}
-     - name: Build and push Docker image from Dockerfile1
+          tags: ${{ steps.meta2.outputs.tags }}
+          labels: ${{ steps.meta2.outputs.labels }}
+
+      # Build and push for Dockerfile3
+      - name: Extract metadata for Dockerfile3
+        id: meta3
+        uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+        with:
+          images: shubhid/cicd3
+
+      - name: Build and push Docker image from Dockerfile3
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
         with:
           context: .
           push: true
           file: ./dockerfile3
-          tags: ${{ steps.meta1.outputs.tags }}
-          labels: ${{ steps.meta1.outputs.labels }}
-
-        
-
-      
-
+          tags: ${{ steps.meta3.outputs.tags }}
+          labels: ${{ steps.meta3.outputs.labels }}
