@@ -38,6 +38,9 @@ Here are some key reasons why we have chosen Docker:
 - **Multi-Platform Support:** Docker supports multiple platforms, including Linux, Windows, and ARM, making it versatile for a wide range of use cases.
 **Continuous Integration/Continuous Deployment (CI/CD):** Docker containers can be easily integrated into CI/CD pipelines for automated testing, building, and deployment, improving the software development lifecycle
 - **Integration:** Docker integrates well with popular orchestration tools like Kubernetes, Docker Swarm, and Amazon ECS. This enables automated scaling, load balancing, and management of containers in clusters.
+
+![diagram-export-7-15-2024-11_23_04-PM](https://github.com/user-attachments/assets/eb83a064-69bb-41f0-9aa5-48771aa2f035)
+
  <hr>
  <b> URLS : </b>
  
