@@ -40,7 +40,7 @@ Here are some key reasons why we have chosen Docker:
 - **Integration:** Docker integrates well with popular orchestration tools like Kubernetes, Docker Swarm, and Amazon ECS. This enables automated scaling, load balancing, and management of containers in clusters.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/98b5943a-e89f-447b-82ae-653af9867ab8" alt="description of image">
+    <img src="https://github.com/user-attachments/assets/1a02e124-ffc4-41c0-920a-677cf8d0ddd3">
 </div>
 
  <hr>
