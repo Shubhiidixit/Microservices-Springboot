@@ -2,20 +2,20 @@
 
 The Currency Conversion System is a technological solution aimed at simplifying the process of converting one currency into another, offering users the ability to access up-to-date exchange rates and perform accurate conversions effortlessly. 
 
-<b> Project Contributors : </b>
+## Project Contributors
 * Ayushi Sinha
 * Drishti Sinha
 * Shruti Agrawal
 * Shubhi Dixit
 
-<b> IDE : </b> 
+## IDE 
 * Eclipse
 
-<b> Technology Stack : </b>
+## Technology Stack
 * Language- Java(Springboot) for backend and HTML, CSS for frontend
 * Database- H2(in-memory), MySQL
-<hr>
-<b> Concept of Application : </b>
+
+## Concept of Application
 
 The application is divided into different microservices, each serving a specific purpose and functionality:
 
@@ -24,8 +24,14 @@ The application is divided into different microservices, each serving a specific
 **Exchange Rate Service:** This Service is responsible for retrieving and providing up-to-date exchange rate information. It is connected to database to fetch the latest exchange rates for various currencies, ensuring accuracy in currency
 <br>
 **Exchange Calculator Service:** This Service is at the core of the system. It takes user input, including the from currency, to currency, and the amount to be converted. This service utilizes the exchange rate data from the Exchange Rate Service to perform the currency calculation accurately.
-<hr>
-<b> Dockerization : </b>
+
+## System Design 
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/b66c34c6-edd3-4d09-9a0d-14031435c316">
+</div>
+
+## Dockerization 
 
 Docker provides a platform and tooling to manage the lifecycle of containers. It is an open source, robust and the most popular container platform which provides the ability to run application in an isolated environment called containers.
 
@@ -43,8 +49,7 @@ Here are some key reasons why we have chosen Docker:
     <img src="https://github.com/user-attachments/assets/1a02e124-ffc4-41c0-920a-677cf8d0ddd3">
 </div>
 
- <hr>
- <b> URLS : </b>
+ ## URLS 
  
 **Login Page:** http://localhost:8021/
 
@@ -55,10 +60,10 @@ Here are some key reasons why we have chosen Docker:
 **Currency Exchange Service:** http://localhost:8003/h2-console to access H2 Database
 
 **Currency Conversion Service:** http://localhost:8005/currency-conversion/from/USD/to/INR/20
-<hr>
 
-<b> System Design : </b>
-![image](https://github.com/Shubhiidixit/Microservices-Springboot/assets/123651074/65342d47-47af-4d11-9f3b-df0b794521dd)
+
+
+
 
 
 
