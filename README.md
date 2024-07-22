@@ -65,9 +65,9 @@ Docker provides a platform and tooling to manage the lifecycle of containers. It
 - **Ease of Use:** Docker provides a user-friendly command-line interface and graphical tools, making it accessible to both developers and system administrators. It simplifies the process of creating, managing, and running containers.
 - **Portability:** Docker containers are highly portable across different environments (development, testing, production, and cloud).Containers encapsulate all dependencies, ensuring consistent behavior regardless of the host system.
 - **Isolation:** Docker containers provide robust isolation mechanisms, allowing applications to run independently without interfering with each other.They use namespaces and cgroups for process and resource isolation.
-**DevOps Integration:** Docker facilitates the adoption of DevOps practices by allowing developers and operations teams to work with consistent environments throughout the development lifecycle.
+- **DevOps Integration:** Docker facilitates the adoption of DevOps practices by allowing developers and operations teams to work with consistent environments throughout the development lifecycle.
 - **Multi-Platform Support:** Docker supports multiple platforms, including Linux, Windows, and ARM, making it versatile for a wide range of use cases.
-**Continuous Integration/Continuous Deployment (CI/CD):** Docker containers can be easily integrated into CI/CD pipelines for automated testing, building, and deployment, improving the software development lifecycle
+- **Continuous Integration/Continuous Deployment (CI/CD):** Docker containers can be easily integrated into CI/CD pipelines for automated testing, building, and deployment, improving the software development lifecycle
 - **Integration:** Docker integrates well with popular orchestration tools like Kubernetes, Docker Swarm, and Amazon ECS. This enables automated scaling, load balancing, and management of containers in clusters.
 
 <div align="center">
