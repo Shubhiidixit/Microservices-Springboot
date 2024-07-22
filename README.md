@@ -35,7 +35,7 @@ The application is divided into different microservices, each serving a specific
 
 Docker provides a platform and tooling to manage the lifecycle of containers. It is an open source, robust and the most popular container platform which provides the ability to run application in an isolated environment called containers.
 
-Here are some key reasons why we have chosen Docker:
+<b> Here are some key reasons why we have chosen Docker: </b>
 
 - **Ease of Use:** Docker provides a user-friendly command-line interface and graphical tools, making it accessible to both developers and system administrators. It simplifies the process of creating, managing, and running containers.
 - **Portability:** Docker containers are highly portable across different environments (development, testing, production, and cloud).Containers encapsulate all dependencies, ensuring consistent behavior regardless of the host system.
@@ -60,6 +60,22 @@ Here are some key reasons why we have chosen Docker:
 **Currency Exchange Service:** http://localhost:8003/h2-console to access H2 Database
 
 **Currency Conversion Service:** http://localhost:8005/currency-conversion/from/USD/to/INR/20
+
+## Applications
+
+- **Travel and Tourism:** Currency conversion systems are essential for travelers who need to 
+convert their home currency into the local currency of their destination. This helps them manage 
+their expenses and make informed financial decisions while abroad.
+- **E-Commerce:** Online retailers often provide currency conversion tools to display product prices 
+in the shopper's preferred currency. This feature enhances the shopping experience for 
+international customers and can boost sales.
+- **Forex Trading:** Currency conversion is at the core of the foreign exchange (forex) market, where 
+traders buy and sell currencies based on exchange rate fluctuations. Forex trading platforms 
+depend on accurate and real-time currency conversion.
+- **Accounting and Financial Reporting:** Multinational corporations use currency conversion 
+systems to consolidate financial statements from various subsidiaries operating in different 
+countries. This ensures accurate and compliant financial reporting.
+
 
 
 
