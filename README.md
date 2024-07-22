@@ -8,7 +8,7 @@ The Currency Conversion System is a technological solution aimed at simplifying 
 * Shruti Agrawal
 * Shubhi Dixit
 
-## Objective
+## Objectives
 
 - To develop a microservices-based system that retrieves and maintains 
 accurate and real-time exchange rate data for various currencies.
@@ -19,6 +19,18 @@ package, deploy, and manage them independently.
 - To gain proficiency in deploying microservices on Amazon Web Services 
 (AWS)
 
+## What are Microservices?
+- Microservices architecture is an architectural style for designing and 
+developing software applications as a collection of small, 
+independent, and loosely coupled services.
+- It breaks down the application into a set of smaller, self-contained 
+services that can be developed, deployed, and scaled independently. 
+- Each microservice focuses on a specific business capability and 
+communicates with other through well-defined APIs. 
+- It is commonly used in modern software development, especially in 
+large and complex systems where scalability, maintainability, and 
+agility are critical and take advantage of cloud computing and 
+containerization technologies,
 
 ## IDE 
 * Eclipse
