@@ -51,15 +51,15 @@ Docker provides a platform and tooling to manage the lifecycle of containers. It
 
  ## URLS 
  
-**Login Page:** http://localhost:8021/
+-**Login Page:** http://localhost:8021/
 
-**Registration Page:** http://localhost:8028/register
+-**Registration Page:** http://localhost:8028/register
 
-**Home Page:** http://localhost:8028/login
+-**Home Page:** http://localhost:8028/login
 
-**Currency Exchange Service:** http://localhost:8003/h2-console to access H2 Database
+-**Currency Exchange Service:** http://localhost:8003/h2-console to access H2 Database
 
-**Currency Conversion Service:** http://localhost:8005/currency-conversion/from/USD/to/INR/20
+-**Currency Conversion Service:** http://localhost:8005/currency-conversion/from/USD/to/INR/20
 
 ## Applications
 
