@@ -33,8 +33,7 @@ agility are critical and take advantage of cloud computing and
 containerization technologies.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/637d1801-ec8c-442e-81dd-bae70f931cd7")
-">
+    <img src="https://github.com/user-attachments/assets/ee93f680-4855-4482-a975-259c9529d5cc">
 </div>
 
 ## IDE 
@@ -71,7 +70,7 @@ Docker provides a platform and tooling to manage the lifecycle of containers. It
 - **Integration:** Docker integrates well with popular orchestration tools like Kubernetes, Docker Swarm, and Amazon ECS. This enables automated scaling, load balancing, and management of containers in clusters.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/39f07092-972e-4c3d-bd95-8142219b4ea1">
+    <img src="https://github.com/user-attachments/assets/98201a98-b610-4322-bce1-2f6d9a0dc12a">
 </div>
 
 ## AWS Services Used
