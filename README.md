@@ -30,7 +30,11 @@ communicates with other through well-defined APIs.
 - It is commonly used in modern software development, especially in 
 large and complex systems where scalability, maintainability, and 
 agility are critical and take advantage of cloud computing and 
-containerization technologies,
+containerization technologies.
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/3771074b-4a7a-4aeb-8b7e-2deb785e7b196">
+</div>
 
 ## IDE 
 * Eclipse
