@@ -49,9 +49,7 @@ containerization technologies.
 The application is divided into different microservices, each serving a specific purpose and functionality:
 
 - **Login Service:** This Service handles user authentication and authorization. Users can log in to the system securely by creating a new account, ensuring that only authorized individuals can access the currency conversion features.
-<br>
 - **Exchange Rate Service:** This Service is responsible for retrieving and providing up-to-date exchange rate information. It is connected to database to fetch the latest exchange rates for various currencies, ensuring accuracy in currency
-<br>
 - **Exchange Calculator Service:** This Service is at the core of the system. It takes user input, including the from currency, to currency, and the amount to be converted. This service utilizes the exchange rate data from the Exchange Rate Service to perform the currency calculation accurately.
 
 ## System Design 
